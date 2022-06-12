@@ -14,7 +14,7 @@ def get_headers():
 
 def parse_author(author):
   return {
-    "type": author.get("type"),
+    "author_type": author.get("type"),
     "name": author.get("name"),
     "email": author.get("email"),
   }
